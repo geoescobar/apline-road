@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700;900&display=swap");
+
 body {
-    background-color: #DAE3E5;
+  font-family: "Poppins", sans-serif;
+  background-color: #dae3e5;
 }
 
 /* #121420
 #A1C6EA */
+.navbar {
+  position: fixed;
+  transition: all 0.2s ease-in;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.nav--hidden {
+  top: -160px;
+}
+
+.hero {
+  background-image: url(https://images.pexels.com/photos/804573/pexels-photo-804573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -300px;
+}
