@@ -4,9 +4,9 @@ function Tours() {
   return (
     <div>
       <div class="grid grid-cols-1  gap-4">
-        <div className="flex justify-center">
-          <div className="w-3/5 mr-4 mt-20">
-            <h1 className="font-bold uppercase text-2xl">Snowmobile Tours</h1>
+        <div className="flex justify-center pb-12">
+          <div className="w-64 mr-8 mt-20">
+            <h1 className="font-bold uppercase text-2xl pb-4">Snowmobile Tours</h1>
             <p>
               A guided 2 hour adventure that traverses over 100 miles. The tour
               typically includes stops along the way to take in the beautiful
@@ -16,19 +16,24 @@ function Tours() {
             </p>
           </div>
           <div>
-            <img src="../assets/snowmobile1.png" alt="snowmobile" />
+            <img
+              src="../assets/snowmobile1.png"
+              alt="snowmobile"
+              className="image"
+            />
           </div>
         </div>
 
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly pb-12">
           <div>
             <img
               src="https://www.bvadventurehub.com/content/files/uploads/2017/06/Side-By-Side-Rentals.jpg"
               alt="side-by-side"
+              className="image"
             />
           </div>
-          <div className="w-3/5 mt-20 ml-4">
-            <h1 className="font-bold uppercase text-2xl">Side-By-Side Tours</h1>
+          <div className="w-64 mt-20">
+            <h1 className="font-bold uppercase text-2xl pb-4">Side-By-Side Tours</h1>
             <p>
               Drive your own Side-x-Side! We offer a guided or self-guided 2
               hour tour that takes you across our private property showing you
@@ -38,9 +43,9 @@ function Tours() {
             </p>
           </div>
         </div>
-        <div className="flex justify-evenly">
-          <div className="w-3/5 mt-20">
-            <h1 className="font-bold uppercase text-2xl">ATV Tours</h1>
+        <div className="flex justify-evenly align-middle">
+          <div className="w-64 mt-20">
+            <h1 className="font-bold uppercase text-2xl pb-4">ATV Tours</h1>
             <p>
               This 2-hour tour takes you through the mountains and even through
               creeks, providing an ultimate adventure for those seeking a
@@ -49,7 +54,11 @@ function Tours() {
             </p>
           </div>
           <div>
-            <img src="../assets/atvgroup.png" alt="atv" />
+            <img
+              src="https://www.durangotrain.com/wp-content/images/ATV%20ARiver.jpg"
+              alt="atv"
+              className="image"
+            />
           </div>
         </div>
       </div>

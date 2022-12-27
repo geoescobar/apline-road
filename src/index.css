@@ -30,3 +30,8 @@ body {
   background-size: 100%;
   background-position-y: -300px;
 }
+
+.image {
+  height: 100%;
+  width: 100%;
+}

@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div >
-        <div className="text-center p-2 content-center items-center bg-[#16161d] text-white">
+      <div>
+        <div className="text-center p-2 content-center items-center bg-[#121420] text-white">
           <div className="container justify-center items-center mx-auto">
             <div className="flex justify-center content-center items-center mb-6 place-content-center ">
               <a

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const nav = document.querySelector(".navbar");
@@ -18,13 +19,19 @@ function Navbar() {
     <div>
       <ul className="navbar p-4 bg-[#121420] text-white flex justify-evenly">
         <li>
-          <p>Home</p>
+          <Link to="/">
+            <p>Home</p>
+          </Link>
         </li>
         <li>
-          <p>Tours</p>
+          <Link to="/book-tour">
+            <p>Tours</p>
+          </Link>{" "}
         </li>
         <li>
-          <p>Contact</p>
+          <Link to="/contact">
+            <p>Contact</p>
+          </Link>{" "}
         </li>
       </ul>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Reviews from "./Reviews";
 import Tours from "./Tours";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -13,9 +14,11 @@ function Hero() {
           Experience the thrill of the great outdoors with our one of a kind
           tours
         </p>
-        <button className="border-2 border-[#121420] bg-[#121420] p-3 uppercase font-thin ">
-          Book Now
-        </button>
+        <Link to="book-tour">
+          <button className="border-2 border-[#121420] bg-[#121420] p-3 uppercase font-thin ">
+            Book Now
+          </button>
+        </Link>
       </div>
 
       <div className="block p-10 text-center bg-[#BBD1EA]">
@@ -47,7 +50,7 @@ function Hero() {
         <Tours />
       </div>
 
-      <div className="block p-4 text-center">
+      <div className="block p-12 text-center">
         <h2 className="font-bold pb-2 uppercase  text-4xl">
           Join our newsletter
         </h2>
@@ -56,10 +59,10 @@ function Hero() {
         </p>
         <form>
           <input
-            className="border-2 p-2 w-1/4 mr-2 border-[#121420]"
+            className="border-2 p-3.5 w-1/4 mr-2 border-[#121420] uppercase"
             placeholder="Enter your email address"
           ></input>
-          <button className="text-white bg-[#121420] p-2.5">Submit</button>
+          <button className="text-white bg-[#121420] p-4">Submit</button>
         </form>
       </div>
     </>
