@@ -34,41 +34,41 @@ function Reviews() {
           <div class="carousel-item active float-left w-full">
             <div class="flex justify-center">
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
-                  Matt T.
-                </h5>
-                <p class="text-gray-700 text-base mb-4">
+                <p class="text-gray-700 mb-4 text-light ">
                   "I recently went on a snowmobile tour and it was an absolute
                   blast! The scenery was breathtaking and the guide was
                   knowledgeable and made the experience so much fun."
                 </p>
+                <h5 class="text-gray-900 text-xl leading-tight font-light mb-2">
+                  Matt T.
+                </h5>
               </div>
             </div>
           </div>
           <div class="carousel-item float-left w-full">
             <div class="flex justify-center">
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
-                  Amy C.
-                </h5>
-                <p class="text-gray-700 text-base mb-4">
+                <p class="text-gray-700 text-base mb-4 text-light ">
                   "The ATV tour was the perfect experience! Being able to
                   experience the outdoors this way was an out of body
                   experience, I would recommend them to anyone. "
                 </p>
+                <h5 class="text-gray-900 text-xl leading-tight font-light mb-2">
+                  Amy C.
+                </h5>
               </div>
             </div>
           </div>
           <div class="carousel-item float-left w-full">
             <div class="flex justify-center">
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
-                  Christian P.
-                </h5>
-                <p class="text-gray-700 text-base mb-4">
+                <p class="text-gray-700 mb-4 text-light ">
                   "Anytime I go up to the mountains they are the first call I
                   make! Absoutely the best tours out there!"
                 </p>
+                <h5 class="text-gray-900 text-xl leading-tight font-light mb-2">
+                  Christian P.
+                </h5>
               </div>
             </div>
           </div>

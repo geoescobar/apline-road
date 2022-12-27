@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <>
-      <div className="hero block text-center bg-[#121420] text-white p-44">
-        <h1 className="font-bold uppercase md:whitespace-nowrap whitespace-normal text-7xl">
+      <div className="hero bg-blend-soft-light block text-center bg-[#121420] text-white p-44">
+        <h1 className="font-bold uppercase md:whitespace-nowrap whitespace-normal pb-4 text-7xl">
           Alpine Road Outdoor Adventures
         </h1>
-        <p className="font-thin">
+        <p className="font-light pb-4">
           Experience the thrill of the great outdoors with our one of a kind
           tours
         </p>
         <Link to="book-tour">
-          <button className="border-2 border-[#121420] bg-[#121420] p-3 uppercase font-thin ">
+          <button className="border-2 border-[#121420] bg-[#121420] p-3 uppercase  font-light">
             Book Now
           </button>
         </Link>
@@ -25,16 +25,16 @@ function Hero() {
         <h2 className="font-bold pb-4 text-4xl underline uppercase">
           Create unforgetable memories
         </h2>
-        <p className="font-thin pb-4">
+        <p className="font-light pb-4">
           Regardless of the weather we have tours designed to give you the
           ultimate mountain experience! Witness spectacular views and experience
           the adrenaline of pushing our fleet to the limit!
         </p>
-        <p className="font-thin pb-4">
+        <p className="font-light pb-4">
           If you're coming in the winter we offer guided and unguided snowmobile
           tours.
         </p>
-        <p className="font-thin">
+        <p className="font-light">
           For summer trips we have UTV and ATV group tours offering you the best
           off road experience.
         </p>

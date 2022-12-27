@@ -24,12 +24,12 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/book-tour">
+          <Link to="/">
             <p>Tours</p>
           </Link>{" "}
         </li>
         <li>
-          <Link to="/contact">
+          <Link to="/">
             <p>Contact</p>
           </Link>{" "}
         </li>
